@@ -33,7 +33,7 @@ export const mapType = defineType({
     defineField({
       name: 'boroughName',
       type: 'string',
-      validation: (rule) => rule.required(),
+      // validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'subareaName',
